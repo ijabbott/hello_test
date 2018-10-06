@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include "hello_world.h"
 
-int main (void)
+char *say_hello(void)
 {
-	printf("Hello, world!\n");
-	return 0;
+    return "hello";
 }
